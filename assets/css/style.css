@@ -405,7 +405,7 @@ font-weight: bolder;
 font-style: oblique;
 }
 .section-title a {
-  color: #3F4A4E;
+  color: #73A9AD;
 }
 .section-title table {
   background-color: #292D32;
@@ -516,7 +516,7 @@ font-style: oblique;
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #A16344;
+  color: #367D83;
 }
 
 .skills .progress .skill .val {
@@ -525,14 +525,14 @@ font-style: oblique;
 }
 
 .skills .progress-bar-wrap {
-  background: #A16344;
+  background: #2C3639;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 1.4s;
-  background-color: #982923;
+  background-color: #73A9AD;
 }
 
 /*--------------------------------------------------------------
