@@ -25,7 +25,7 @@ noscript {
 
 body,
 noscript {
-    background-color: var(--color-dark-mode)
+    background-color: #01091a;
 }
 
 .main,
@@ -170,7 +170,7 @@ html {
 
 .activeThistab:before,
 .navbar-tabs-ul li:hover:before {
-    background-color: var(--color-white);
+    background-color: #caf0f8;
     height: 10px;
     width: 10px;
     left: -20px
@@ -335,7 +335,7 @@ noscript {
 
 #name,
 .getintouch-heading article {
-    background: -webkit-linear-gradient(135deg, var(--color-light-blue), var(--color-light-purple), var(--color-light-blue), var(--color-light-purple));
+    background: -webkit-linear-gradient(135deg, #979DAC, #0466C8,#979DAC, #0466C8);
     -webkit-text-fill-color: transparent
 }
 
@@ -353,15 +353,16 @@ noscript {
 }
 
 .navbar {
-    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
-    backdrop-filter: blur(10px);
-    height: 80px;
-    width: 80%;
+    background-image: linear-gradient(to bottom right, #00123314, #caf0f814);
+    backdrop-filter: blur(px);
+    height: 70px;
+    width: 75%;
+    opacity: 0.9;
     padding: 0 20px;
     justify-content: space-between;
     z-index: 999;
-    border: 1px solid var(--color-navbarBorder-dark);
-    border-radius: 50px
+    border: 1px solid #33415c75;
+    border-radius: 30px
 }
 
 .navbar-tabs,
@@ -448,7 +449,7 @@ noscript {
 .about-info p,
 .activeThistab,
 .language-speak article {
-    color: var(--color-white)
+    color: #979DAC
 }
 
 .blob,
@@ -549,21 +550,21 @@ noscript {
     position: absolute;
     right: -15%;
     top: 0;
-    background-color: var(--color-light-purple);
+    background-color: #0466C8;
     width: 600px;
     height: 100vh;
     filter: blur(300px);
     opacity: .3;
-    animation: 1s linear infinite alternate-reverse breath
+    animation: 2s linear infinite alternate-reverse breath
 }
 
 @keyframes breath {
     from {
-        opacity: .3
+        opacity: .2
     }
 
     to {
-        opacity: .5
+        opacity: .9
     }
 }
 
@@ -603,7 +604,7 @@ noscript {
 #work,
 .letsTalkBtn-text {
     display: flex;
-    font-weight: 900
+    font-weight: 700
 }
 
 @-webkit-keyframes vibrate-1 {
@@ -666,9 +667,10 @@ noscript {
 
 #name {
     align-items: flex-start;
-    background: linear-gradient(-45deg, var(--color-light-blue), var(--color-light-purple), var(--color-light-blue), var(--color-light-purple));
+    background: linear-gradient(-45deg, #0466C8, #7D8597, #0466C8, #7D8597);
     background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
     -webkit-animation: 3s infinite gradient;
     animation: 3s infinite gradient
@@ -706,9 +708,7 @@ noscript {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-color: #FF9500;
-    -webkit-animation: .9s both jello-vertical;
-    animation: .9s both jello-vertical
+    background-color: #5C677D;
 }
 
 #backtotopbutton,
@@ -718,73 +718,6 @@ noscript {
     background-color: transparent
 }
 
-@-webkit-keyframes jello-vertical {
-
-    0%,
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1)
-    }
-
-    30% {
-        -webkit-transform: scale3d(.75, 1.25, 1);
-        transform: scale3d(.75, 1.25, 1)
-    }
-
-    40% {
-        -webkit-transform: scale3d(1.25, .75, 1);
-        transform: scale3d(1.25, .75, 1)
-    }
-
-    50% {
-        -webkit-transform: scale3d(.85, 1.15, 1);
-        transform: scale3d(.85, 1.15, 1)
-    }
-
-    65% {
-        -webkit-transform: scale3d(1.05, .95, 1);
-        transform: scale3d(1.05, .95, 1)
-    }
-
-    75% {
-        -webkit-transform: scale3d(.95, 1.05, 1);
-        transform: scale3d(.95, 1.05, 1)
-    }
-}
-
-@keyframes jello-vertical {
-
-    0%,
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1)
-    }
-
-    30% {
-        -webkit-transform: scale3d(.75, 1.25, 1);
-        transform: scale3d(.75, 1.25, 1)
-    }
-
-    40% {
-        -webkit-transform: scale3d(1.25, .75, 1);
-        transform: scale3d(1.25, .75, 1)
-    }
-
-    50% {
-        -webkit-transform: scale3d(.85, 1.15, 1);
-        transform: scale3d(.85, 1.15, 1)
-    }
-
-    65% {
-        -webkit-transform: scale3d(1.05, .95, 1);
-        transform: scale3d(1.05, .95, 1)
-    }
-
-    75% {
-        -webkit-transform: scale3d(.95, 1.05, 1);
-        transform: scale3d(.95, 1.05, 1)
-    }
-}
 
 #info-para {
     width: 100%;
@@ -795,7 +728,7 @@ noscript {
 
 .contact-btn-div {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -822,7 +755,7 @@ noscript {
     color: #000;
     align-items: center;
     justify-content: center;
-    letter-spacing: .10px
+    letter-spacing: .8px
 }
 
 .cta:hover span,
@@ -1353,7 +1286,7 @@ footer {
     background-color: var(--color-light-purple);
     border-radius: 50%;
     filter: blur(100px);
-    opacity: .7
+    opacity: .9
 }
 
 .footer-foreground {
@@ -1830,7 +1763,7 @@ footer {
     }
 
     .contact-btn-div {
-        height: 140px;
+        height: 120px;
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -1883,7 +1816,7 @@ footer {
 
     #hello-friend,
     .two-words article {
-        font-size: 2.5rem
+        font-size: 5rem
     }
 
     .hey {
