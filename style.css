@@ -56,7 +56,7 @@ footer {
 
 #GmailLogo,
 .sign svg path {
-    fill: white
+    fill: #b5179d
 }
 
 * {
@@ -783,7 +783,7 @@ noscript {
 .cta:hover span,
 .text,
 .tooltip {
-    color: #fff
+    color: #B5179E
 }
 
 .resume-btn,
@@ -832,7 +832,7 @@ noscript {
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .199);
-    background: linear-gradient(82.3deg, #965de9 10.8%, #6358ee 94.3%);
+    background: linear-gradient(82.3deg, #7109b761 10.8%, #4896ef78 94.3%);
     position: relative
 }
 
@@ -865,7 +865,7 @@ noscript {
     right: 0;
     width: 0%;
     opacity: 0;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
     transition-duration: .3s
 }
@@ -963,7 +963,7 @@ noscript {
 }
 
 .about-info {
-    color: #c3a9ff;
+    color: #e2f8ff;
     width: 60%;
     display: flex;
     flex-direction: column
@@ -976,17 +976,18 @@ noscript {
 .dp {
     width: 40%;
     display: flex;
+    border-radius: 20%;
     align-items: flex-start;
     justify-content: center;
     position: relative
 }
 
 .dp::before {
-    box-shadow: 2px 2px 0 inset #8000ff, -2px -2px 0 inset transparent
+    box-shadow: 2px 2px 0 inset #F72585, -2px -2px 0 inset transparent
 }
 
 .dp::after {
-    box-shadow: 2px 2px 0 inset transparent, -2px -2px 0 inset #8000ff
+    box-shadow: 2px 2px 0 inset transparent, -2px -2px 0 inset #F72585
 }
 
 .dp:hover::after {
@@ -1037,17 +1038,37 @@ noscript {
     font-weight: 900;
     height: 100px;
     letter-spacing: 5px;
-    background-image: -webkit-gradient(linear, left top, right top, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
-    background-image: -webkit-linear-gradient(left, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
-    background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+    background-image: linear-gradient(90deg,#4361EE, #F72585, #4361EE);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
-.project-box,
 .tech-stack-box {
-    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
+    background-image: linear-gradient(90deg, #7109b726, #f7258410, #7109b726);
+    padding: 20px; /* İçerik boşluğu */
+    position: relative; /* Pozisyon ayarı */
+    animation: rotate-shadow 4s infinite linear; /* Animasyon ekleniyor */
+}
+
+@keyframes rotate-shadow {
+    0% {
+        box-shadow: 0 4px 10px #7109b76f, /* Mavi gölge */
+                    0 6px 20px #B5179E; /* Pembe gölge */
+    }
+    50% {
+        box-shadow: 0 8px 20px #7109b76f, /* Mavi gölge daha belirgin */
+                    0 12px 30px #B5179E; /* Pembe gölge daha belirgin */
+    }
+    100% {
+        box-shadow: 0 4px 10px #a243e21b, /* İlk duruma geri dön */
+                    0 6px 20px #B5179E;
+    }
+}
+
+
+.project-box {
+    background-image: linear-gradient(90deg,#4362ee08, #f7258418, #4362ee08);
 }
 
 .tech-stack-wrapper {
@@ -1067,8 +1088,8 @@ noscript {
     width: 160px;
     height: 160px;
     justify-content: center;
-    border-radius: 30px;
-    border: 1px solid var(--tech-stack-box-border-color);
+    border-radius: 1000px;
+    border: 1px solid #7109b76c;
     position: relative
 }
 
@@ -1915,7 +1936,7 @@ footer {
     }
 
     .dp img {
-        width: 200px
+        width: 200px;
     }
 
     .two-words {
