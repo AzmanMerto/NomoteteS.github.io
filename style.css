@@ -997,7 +997,7 @@ noscript {
 }
 
 .skills-section-container {
-    padding-top: 150px;
+    padding-top: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1023,7 +1023,7 @@ noscript {
 
 .frontend-dev-section {
     width: 100%;
-    margin-top: 50px
+    margin-top: 10px
 }
 
 .frontend-dev-heading {
@@ -1073,7 +1073,8 @@ noscript {
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    margin-top: 50px
+    margin-top: 50px;
+    padding-bottom: 60px;
 }
 
 .tech-stack-box,
@@ -1146,12 +1147,12 @@ footer {
 
 .cta:hover:before,
 .project-box-wrapper {
-    width: 100%
+    width: 80%
 }
 
 .project-box {
     width: 100%;
-    height: 400px;
+    height: 00px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
