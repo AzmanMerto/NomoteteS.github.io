@@ -1399,13 +1399,6 @@ footer{
    
 }
 
-.buttons-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-
-}
 
 .social-media-container a{
    width: 60px;
